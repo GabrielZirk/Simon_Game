@@ -15,6 +15,8 @@ document.addEventListener("keydown", startGame, {
   once: true
 });
 
+document.querySelector("h1").addEventListener("click", startGame, {once: true});
+
 function updateHeading(mode) {
   if (mode === "next_round"){
   console.log("Update Heading called");
@@ -22,7 +24,7 @@ function updateHeading(mode) {
   }
   else if (mode === "game_over") {
     console.log("Update Heading called");
-    document.querySelector("h1").textContent = "Game Over. Click any key to start again";
+    document.querySelector("h1").textContent = "Game Over. Press any key or click here to start again";
     }
   }
 
@@ -115,6 +117,7 @@ function evaluateClick() {
    document.addEventListener("keydown", startGame, {
      once: true
    });
+   document.querySelector("h1").addEventListener("click", startGame, {once: true});
    levelNumber = 1;
    buttonsToPress = [];
 

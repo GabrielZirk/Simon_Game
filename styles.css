@@ -11,8 +11,8 @@ body {
 button {
   border: 5px solid;
   border-radius: 10px;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 2rem;
 }
 
@@ -26,9 +26,10 @@ button {
 
 .heading {
   font-family: 'Press Start 2P', cursive;
-  font-size: 4rem;
+  font-size: 2rem;
   color: white;
   padding: 3rem 1rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -63,5 +64,15 @@ button {
 
   .heading {
     text-align: left;
+    font-size: 4rem;
   }
+
+  button {
+    border: 5px solid;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2rem;
+  }
+
 }
